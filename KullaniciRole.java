@@ -16,8 +16,8 @@ import javax.persistence.Table;
 public class KullaniciRole implements Serializable{
 
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@Id
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ktr_id")
 	private int ktr_id;
 	
